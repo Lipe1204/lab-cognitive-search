@@ -1,6 +1,7 @@
 # lab-cognitive-search
 lab de IA de pesquisa cognitiva
-Nesse lab experenciei o serviço de IA de pesquisa cognitiva do azure, assim como o passo a passo para criar esse serviço, criando o serviço de pesquisa do azure primeiro nas opções que tem disponiveis, depois uma conta de armazenamento para colocar os arquivos que assim vão servi para o enriquecimento da IA e testei o mecanismo de pesquisa que me deu esse resultado como exemplo: "{
+Nesse lab experenciei o serviço de IA de pesquisa cognitiva do azure, assim como o passo a passo para criar esse serviço, criando o serviço de pesquisa do azure primeiro nas opções que tem disponiveis, depois uma conta de armazenamento para colocar os arquivos que assim vão servi para o enriquecimento da IA e testei o mecanismo de pesquisa que me deu esse resultado como exemplo:
+"{
   "@odata.context": "https://iadepesquisa.search.windows.net/indexes('azureblob-index1')/$metadata#docs(*)",
   "@odata.count": 9,
   "value": [
@@ -49,4 +50,8 @@ Nesse lab experenciei o serviço de IA de pesquisa cognitiva do azure, assim com
       "content": "Review: Today I was truly disappointed with how long I had to wait for the pastries I ordered ahead of time. When I got my box, some of the pastries seemed stale. Terrible experience!  \nDate: October 23, 2018\nLocation: Chicago, Illinois \n\n",
       "metadata_storage_path": "aHR0cHM6Ly9hcm1hemVuYW1lbnRvaWFwZXNxdWlzYS5ibG9iLmNvcmUud2luZG93cy5uZXQvY29mZmVlcmV2aWV3cy9yZXZpZXctOC5kb2N40"
     }"
-    Durante o lab, percebi que o AI Search é ótimo para lidar com grandes volumes de dados e que a integração com o Azure facilita muito, mas exige atenção na configuração inicial. Também notei que dá para adaptar os skillsets para quase qualquer necessidade, o que abre muitas possibilidades. Acho que as aplicações que mais se beneficiam são análise de feedback de clientes, como o caso das avaliações de café, onde dá para identificar rápido o que as pessoas gostam ou não, e busca em e-commerce, para combinar descrições, avaliações e imagens numa experiência fluida. No fim, aprendi a mexer com skillsets e indexadores, gerenciar recursos no Azure e criar consultas úteis, e vi como o AI Search pode ser uma solução poderosa para transformar dados em algo prático e valioso.
+ 
+     
+     
+     
+Durante o lab, percebi que o AI Search é ótimo para lidar com grandes volumes de dados e que a integração com o Azure facilita muito, mas exige atenção na configuração inicial. Também notei que dá para adaptar os skillsets para quase qualquer necessidade, o que abre muitas possibilidades. Acho que as aplicações que mais se beneficiam são análise de feedback de clientes, como o caso das avaliações de café, onde dá para identificar rápido o que as pessoas gostam ou não, e busca em e-commerce, para combinar descrições, avaliações e imagens numa experiência fluida. No fim, aprendi a mexer com skillsets e indexadores, gerenciar recursos no Azure e criar consultas úteis, e vi como o AI Search pode ser uma solução poderosa para transformar dados em algo prático e valioso.
